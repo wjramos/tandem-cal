@@ -1,0 +1,61 @@
+/* This stylesheet is used to style the public view of the widget. */
+.events-title,
+.events-feed a {
+    color: #000;
+}
+.events-feed {
+    padding: 0;
+    margin: 0;
+
+    list-style: none;
+}
+.events-feed .event:after {
+    display: block;
+    height: 0;
+    margin-bottom: 15px;
+    clear: both;
+
+    content: "";
+}
+.events-feed .event .event-dt {
+    float: left;
+    width: 80px;
+    height: 80px;
+
+    text-align: center;
+
+    border: 2px solid #ffa400;
+    border-radius: 40px;
+}
+.events-feed .event .event-dt .mnth {
+    margin: 11px 0 0;
+
+    font-size: 14px;
+    line-height: 1em;
+
+    text-transform: uppercase;
+
+    color: #6d6d6d;
+}
+.events-feed .event .event-dt .day {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1em;
+
+    color: #ffa400;
+}
+.events-feed .event .event-dsc {
+    width: 100%;
+    padding: 0 0 0 100px;
+    box-sizing: border-box;
+}
+.events-feed .event .event-dsc .ttl {
+    margin: 15px 0 0;
+}
+.events-feed .event .event-dsc .time {
+    font-size: 14px;
+    font-style: italic;
+    line-height: 1em;
+
+    color: #0542b5;
+}
